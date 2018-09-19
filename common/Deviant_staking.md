@@ -1,9 +1,9 @@
-# Deviant staking guide
+# Deviant Staking Guide
 ## QT wallet
 ### Prerequisites
 1. The wallet has been setup (verify [here](/common/Setup_wallet.md))
-### Creating a Staking address
-Open the receiving address menu from your wallet.<br />
+### Creating a Staking Address
+Open the Receiving Address menu from your wallet.<br />
 
 ![receiving address](/images/rec-address.png)
 
@@ -17,7 +17,7 @@ The Coin Control feature allows the user to select the input that must be used t
 <br />
 ![No Coin Control](/images/noCoinControl.png)
 <br />
-The option to enable the Coin Control feature is in the Gui Wallet:<br />
+The option to enable the Coin Control feature is in the Gui Wallet. You can activaet it by hitting <br />
 Settings -> Options -> Wallet<br />
 
 Settings Options | Wallet tab
@@ -36,16 +36,16 @@ Just click on Coin Control, which will open a new menu.
 
 In this menu, just select the input(s) you want to stake, then press Ok.
 ### Split your DEV in stake inputs
-Copy the amount visible in "After Fee" field in "Amount" field.<br />
-Set the previously created address in "Pay To:" field. <br />
-Set flag in "Split UTXO" field, then write in the editable field the number (an integer) of inputs you want split your amount.
+Copy the amount visible in the "After Fee" field in "Amount" field.<br />
+Set the previously created address in the "Pay To:" field. <br />
+Check the box in the "Split UTXO" field, then type in the editable field the number (an integer) of inputs you want to split your amount into.
 
 ![UTXO](/images/utxo.png)
 
-Note: There is not a formula to calculate the optimal size of inputs. It depends on the values of the net, also optimal size is not a constant, it changes with time.<br />
-Sharing experience about staking with other users may improve the staking experience.
+Note: There is not a formula to calculate the optimal size of inputs. It depends on the values of the network and also optimal size is not a constant as it changes with time.<br />
+Sharing experiences about staking with other users may improve the staking experience.
 ### Start staking
-Once the inputs setup is finished, in order to stake you have two prerequisites:
+Once the inputs setup is finished, in order to stake, you have two prerequisites:
 1. Your inputs needs 60 confirmations<br />
 
 A way to count confirmations, is to open "Coin Control" in "list mode", then read confirmations in the homonimous column.
